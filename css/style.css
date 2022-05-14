@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+  box-sizing: border-box; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: white;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+.container{
+    width: 80%;
+    /* background-color: beige; */
+    height: 50px;
+    margin: auto;
+   
+}
+.logo{
+    display: inline-block;
+    margin-top:10px;
+ 
+
+}
+.logo .AX{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo .IT{
+    color: #ff8b38;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+ul{
+    text-align: end;
+   margin-top:-25px;
+   display: inline-block;
+   width: 90%;
+ 
+  
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    
+   
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+a:hover{
+color: #ff8b38;
+}
+
+section{
+    width: 100%;
+    height: 200px;
+}
+.banner{
+    background-image: url('../images/banner.jpg');
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+     height: 700px;
+     width: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #23230e45;
+    padding-top:  111px;;
+}
+
+.form{
+    width:30%;
+    background-color: white;
+    float:right;
+    /* height: 300px; */
+    border-radius: 5px;
+    clear: both;
+    
+}
+.info{
+  
+    width: 50%;
+    /* background-color: aliceblue; */
+    display: inline-block;
+    margin-right: 66px;
+   
+    
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    /* background: #f5f5f5; */
+    padding: 10px 0;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    font-size: 18px;
+    display: block;
+    border: none;
+    outline:none;
+    padding: 20px 5px;
+   margin: 20px auto;
+   box-shadow: 0px 2px 8px 0px gainsboro;
+   color:  #343030;
+}
+
+
+.Get-started{
+    width: 100%;
+    background-color: #ff8b38;
+    padding: 15px 30px;
+    font-size: 20px;
+   outline: 0;
+   border: 0;
+   margin-top: 20px;
+}
+.Get-started:hover{
+    background-color: #343030;
+    color: #ff8b38;
+}
+
+ #AX{
+    color:white;
+    font-weight: bold;
+    font-size: 70px;
+}
+ #IT{
+    color: #ff8b38;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 30px;
+}
+p.text1{
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 60px;
+    color:#fff
+}
+.line{
+    width: 64px;
+    height: 2px;
+    display: block;
+    background-color:white ;
+    
+    margin: 20px 0;
+}
+
+#download{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 12px 30px;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+
+
+/* social Media  */
+.social{
+    margin: auto;
+    margin-top: 500px;
+    width: 80%;
+    height: 100px;
+    padding-top: 20px;
+   
+ 
+   
+}
+.icons{
+    float: right;
+  
+}
+.social-text{
+    display: inline-block;
+   
+}
+.social-text p{
+    color:  #cccccc;
+    max-width: 400px;
+    
+}
+h3{
+    color: black;
+}
+.icon{
+    padding-left: 40px;
+}
+
+svg:hover {
+    fill:#ff8b38;
+  }
+
+
+/* Tabs Links section */
+#tabbingsec{
+    margin: auto;
+    margin-top: 24px;
+    width: 100%;
+    height:550px;
+    padding: 50px 120px;
+    
+    background: #f5f5f5;
+    box-shadow: 1px 2px 16px -3px rgb(189, 182, 182);
+
+}
+.tabs-links{
+    display: inline-block;
+   margin-top: 40px;
+   margin-left: -41px;
+    
+}
+
+.tabs-desc{
+    float: right;
+    width: 70%;
+    margin-top: -360px;
+}
+ul li.tab1,.tab2,.tab3{
+    height: 112px;
+    width: 112px;
+    background-color: #ff8b38;
+    display: block;
+    margin-top: 3px;
+    padding: 46px 41px;
+
+}
+.tab2,.tab3{
+    background-color: #343030;
+}
+
+
+.tabright-img{  
+    float: right;
+}
+
+.tab-text{
+    display: inline-block;
+    
+}
+.tab-text h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.tab-text p{
+    color: #333333;
+    max-width: 500px;
+}
+p{
+    color: #333333;
+    max-width: 500px;
+}
+.btn-tab{
+    margin-top: 20px;
+    background-color: #ff8b38;
+    cursor:pointer;
+    padding: 10px 40px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+}
+
+.fa-solid, .fas{
+    color:#ff8b38
+}
+.sec4{
+    margin-top: 430px;
+  
+}
+.w-90{
+    width: 90%;
+    margin: auto;
+    min-height: 400px;
+   
+}
+.block{
+    display:inline-block;
+    width: 28%;
+    
+
+}
+.float{
+    float: right;
+    width: 51%;
+}
+h5{
+    color: #000;
+}
+.block-icon{
+    display:inline-block;
+    margin: 20px 0;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #ff8b38; 
+
+}
+.sec1-img{
+    box-shadow: 1px 2px 2px -8px gainsboro;
+}
+
+.line-title{
+    background-color: #ff8b38;
+    width: 60px;
+    margin: 30px 0;
+    height: 5px;
+
+}
+.txt-icon{
+    width: 77%;
+    margin-top: 20px;
+    
+}
+
+/* start section 5 */
+.sec5{
+    margin: auto;
+    margin-top: 232px;
+    width: 100%;
+    height:550px;
+    padding: 90px 120px;
+    
+    background: #f5f5f5;
+    box-shadow: 1px 2px 16px -3px rgb(189, 182, 182);
+
+}
+/* end section 5 */
+/* start section 6 */
+.sec6 ,.feedback,#contact{
+    margin: 90px 0;
+    height: 400px;
+
+}
+.float-left{
+    float: left;
+    margin-left: 35px;
+    width: 30%;
+    text-align: center;
+}
+ .line-center{
+    background-color: #ff8b38;
+    width: 64px;
+    text-align: center;
+    margin: 30px auto;
+    height: 2px;
+    border: none;
+
+ }
+ .h2-center{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ p.bottom {
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 110px;
+    color: #86878b;
+
+}
+
+
+
+.sec6 .icon{
+   
+    text-align: center;
+    border-radius: 50%;
+    padding: 22px;
+    border: 2px solid #ff8b38;
+    font-size: 25px;
+    margin-bottom: 30px;
+    /* overflow: hidden; */
+}
+.sec6  p{
+    margin-top: 20px;
+    color: #86878b;
+ 
+    
+}
+
+.sec7{
+    margin: auto;
+    margin-top: 232px;
+    width: 100%;
+    min-height: 950px;
+    padding: 90px 120px;
+    
+    background: #f5f5f5;
+}
+
+.sec7 article h4 {
+    background: #333333;
+    color: rgba(255,255,255,0.50);
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #ff8b38;
+    font-weight: 400;
+    line-height: 100%;
+}
+.sec7  article h3 {
+        background: #333333;
+        color: #fff;
+        padding: 22px 0;
+        border-bottom: 1px solid #fff;
+}
+.sec7 article h1 {
+    background: #333333;
+    color: #fff;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.sec7 article h1 span{
+    font-size: 35px;
+}
+.sec7 article h4 {
+    background: #333333;
+    color: rgba(255,255,255,0.50);
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #ff8b38;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+
+.sec7  article h5 {
+    background: #ff8b38;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 600;
+    line-height: 100%;
+}
+.sec7 article p {
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.topDiv{
+    margin-top: -30px;
+}
+/* end sec 7 */
+/* start feedback section  */
+/* .parent{
+    position:relative
+} */
+.client-head{
+    position: relative;
+    bottom: -25px;
+    left: -90px;
+}
+.post{
+    position: relative;;
+    background-color:#f5f5f5;
+    max-width: 301px;
+    text-align: start;
+    padding: 15px;
+    
+}
+p.post:after {
+    top: 100%;
+    left: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(245, 245, 245, 0);
+    border-top-color: #f5f5f5;
+    border-width: 15px;
+    margin-left: -15px;
+}
+.img-client,.client{
+    display: inline-block;
+   
+    
+   
+    
+}
+.client{
+  
+  position: relative;
+  top: -20px;
+  left: 10px;
+    
+   
+}
+span.job-postion{
+    color: #86878b;
+   
+}
+
+/* end feedback section */
+/* start desgin section */
+.design{
+    margin: 192px 0;
+    margin-bottom: 0;
+    background-image: url('/images/news.jpg');
+    min-height: 400px;
+    background-size: 100% 100%;
+}
+
+.design h2{
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        font-size: 36px;
+        color: #fff;
+        line-height: 43px;
+        text-align: center;
+        text-transform: uppercase;
+    
+}
+.design hr{
+    color: #fff;
+    background-color: #fff;
+}
+.design p{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.design #download{
+    margin: 30px auto;
+    display: block;
+}
+.design #download:hover{
+    color: #000;
+    background-color: #f5f5f5;
+  
+}
+
+/* End desgin section */
+#contact{
+    margin-bottom: 90px;
+    min-height:600px;
+}
+.contact-form,.Message{
+    display: inline-block;
+    width: 47%;
+    margin-left: 36px;
+}
+textarea{
+    color:#86878b;
+    width: 90%;
+    height: 237px;
+    border: none;
+    outline: none;
+    box-shadow:  1px 2px 18px -3px gainsboro;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: block;
+    position: absolute;
+    top: -231px;
+}
+.Message{
+    position: relative;
+}
+
+#contact #download{
+    background-color: #ff8b38;
+    text-align: center;
+    display: block;
+    margin:20px auto;
+}
+
+
+/* start footer section */
+#footer{
+    margin-top: 90px;
+    background-color: #000;
+    color: #f5f5f5;
+    padding: 20px ;
+    height: 110px;
+}
+.bottomsocial{
+    text-align: center;
+    margin: auto;
+    
+}
+#footer p{
+    color: rgba(255,255,255,0.50);
+    font-size: 12px;
+    margin:5px auto;
+    display: block;
+    text-align: center;
+}
+#footer .icon{
+    margin-left: -29px;
+    font-size: 20px;
+}
+
+
+/* End footer section */
